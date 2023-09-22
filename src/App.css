@@ -1,38 +1,69 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none !important;
+  box-sizing: border-box !important;
+  text-decoration: none !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.ff-roboto {
+  font-family: 'Roboto', sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.instagram {
+  max-width: 70%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.box1 {
+  border: 0.5px solid #73737369;
+  min-width: 350px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+button {
+  background-color: #0095fc;
+  border: 1px solid #0095f6;
+  border-radius: 6px !important;
   color: white;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+.w-101 {
+  width: 168%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+input {
+  outline: none !important;
+  padding-left: 6px;
+  background-color: #F2F3F5 !important;
+  border: 0.2px solid #737373 !important;
+  padding: 9px 0px 7px 8px !important;
+  font-size: 12px !important;
+}
+
+::placeholder {
+  font-size: 12px !important;
+}
+
+.login {
+  background-color: #1877F2 !important;
+  opacity: 0.9;
+  color: white;
+  font-size: 14px !important;
+  outline: none !important;
+  border: none !important;
+  border-radius: 6px;
+  padding-left: 0px !important;
+  cursor: pointer;
+  width: 100%;
+}
+
+@media (max-width:360px) {
+  .box1 {
+    min-width: 300px;
   }
-  to {
-    transform: rotate(360deg);
-  }
+
 }
